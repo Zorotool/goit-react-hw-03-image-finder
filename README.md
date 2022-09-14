@@ -100,3 +100,9 @@
 3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
    отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
    скрипта будет указано в чем проблема.
+
+https://pixabay.com/api/?q=cat&page=1&key=29329333-055ae775c40a21a6805039f57&image_type=photo&orientation=horizontal&per_page=12
+
+handleGetApi = async () => { try { const images = await getApiService()
+this.setState({ images }) } catch (error) { console.log(error) }  
+ };
